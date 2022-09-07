@@ -26,6 +26,18 @@ class HomePage extends StatelessWidget {
                   }, 
                   child: const Text('Page2')
                 ),
+                ElevatedButton(
+                  onPressed: () {
+                    Get.toNamed('/envioParametros');
+                  }, 
+                  child: const Text('Envio Parâmetros')
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    Get.toNamed('/middlewares');
+                  }, 
+                  child: const Text('Middlewares')
+                ),
               ],
             ),
            ),
